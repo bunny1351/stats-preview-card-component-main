@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  body {
+    background-color: #090b1a;
+  }
+
+  .container {
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 8x;
+    overflow: hidden;
+    margin: 75px auto;
+    background-color: #1b1938;
+  }
+  .container img {
+    background: #aa5cdb;
+    width: 250px;
+    height: 180px;
+    mix-blend-mode: normal;
+  }
+  .container .text {
+    padding: 0 25px;
+    margin-bottom: 40px;
+  }
+  .container .text h1 {
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .container .text h1 span {
+    font-size: 20px;
+    color: #aa5cdb;
+  }
+  .container .text p {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .container .stats {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 2em;
+  }
+  .container .stats span {
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #090b1a;
+  }
+
+  .container {
+    width: 750px;
+    height: 330px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 150px auto;
+    background-color: #1b1938;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .container img {
+    background: #aa5cdb;
+    width: 350px;
+    mix-blend-mode: soft-light;
+  }
+  .container .text {
+    padding: 0 25px;
+    margin: 30px 45px 20px 20px;
+  }
+  .container .text h1 {
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: left;
+    margin: 20px 0;
+  }
+  .container .text h1 span {
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #aa5cdb;
+  }
+  .container .text p {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .container .allStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    width: 250px;
+  }
+  .container .allStats .stats {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 2em;
+  }
+  .container .allStats .stats span {
+    color: white;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
